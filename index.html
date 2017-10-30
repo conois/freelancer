@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>MEEEEE Freelancer -Star Bootstrap Theme</title>
+	<title>Freelancer -Star Bootstrap Theme</title>
 	<script src="https://use.fontawesome.com/1affae7a95.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
@@ -27,13 +27,14 @@
 <section id="starSection"> <!-- star -->
 	<div id=imgStar><img src="assets/images/profile.png"></div><!--Imagen -->
 	<div id=titSect>Star Bootstrap</div>
-	<div id="estrellita"><p><hr id="firstHr"><i class="fa fa-star" id="estrAzul" aria-hidden="true"></i><hr id="secondHr"></p></div> <!--estrellita-->
+
+	<div class="estrella blanca"><hr class="lineaPrimera blanca"><i class="fa fa-star" aria-hidden="true"></i><hr class="lineaSegunda blanca"></div> <!--estrellita-->
 	<p id="footStar">Web Devoloper-Graphic Artist-User Experience Designer</p>
 </section> 
 
 <section id="portSection"> <!--portafolio-->
 	<p id="port">Portfolio</p>
-	<div id="estre"><p><hr id="firstHrDos"><i class="fa fa-star" aria-hidden="true"></i><hr id="secondHrDos"></p></div>
+	<div class="estrella azul"><hr class="lineaPrimera azul"><i class="fa fa-star azul" aria-hidden="true"></i><hr class="lineaSegunda azul"></div>
 	<div><img class="fila" src="assets/images/portfolio/cabin.png"></div> <!--images -->
 	<div><img class="Imgg" src="assets/images/portfolio/cake.png"></div>
 	<div><img class="Imgg" src="assets/images/portfolio/circus.png"></div>
@@ -44,7 +45,7 @@
 
 <section id="aboutSection">  <!--about -->
 	<p id="sect">About</p>
-	<div id="newEstre"><p><hr id="firstHrTres"><i class="fa fa-star" aria-hidden="true"></i><hr id="secondHrTres"></p></div>
+	<div class="estrella blanca"><hr class="lineaPrimera blanca"><i class="fa fa-star" aria-hidden="true"></i><hr class="lineaSegunda blanca"></div>
 
 	<div class="parraf Onep"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p></div>
 	<div class="parraf"><p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p></div>
@@ -54,6 +55,7 @@
 
 <section id="contactSection"><!--contact me -->
 	<p id="contact">Contact Me</p>
+	<div class="estrella azul"><hr class="lineaPrimera azul"><i class="fa fa-star azul!important" aria-hidden="true"></i><hr class="lineaSegunda azul"></div>
 	<div >
   			<input type="text" name="Name" placeholder="Name" class="noBorder">
   			<hr class="formHr">
@@ -76,12 +78,26 @@
 	</div>
 	<div id="around">
 		<p class="titFoot">Around the web </p>
-		<p><i class="fa fa-facebook" aria-hidden="true"></i> </p> <!--icons -->
+		<div id="iconos">
+			<p class="icon"><i class="fa fa-facebook" aria-hidden="true"></i> </p>
+			<p class="icon"><i class="fa fa-google-plus" aria-hidden="true"></i></p>
+			<p class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></p>
+			<p class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></p> 
+			<p class="icon"><i class="fa fa-dribbble" aria-hidden="true"></i></p>
+		</div>
+		
 	
 	</div>
 	<div id="aboutFree">
 		<p class="titFoot">About Freelancer</p>
-		<p class="parf two">Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+		<p class="parf two">Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="linkStar">Start Bootstrap.</a></p>
+	</div>
+
+	<div class="final">
+		<p class="line">Copyright</p>
+		<i class="fa fa-copyright iconFoot" aria-hidden="true"></i>
+		<p class="line">Your Website 2017</p>
+
 	</div>
 </footer>
 
